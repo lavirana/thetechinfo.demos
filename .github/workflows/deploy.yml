@@ -18,7 +18,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./
-          server-dir: public_html/demos/
+          server-dir: /
           port: 21
           protocol: ftps
           security: loose
